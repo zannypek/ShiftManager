@@ -1,0 +1,227 @@
+body{
+  width:100%;
+  height:100vh;
+  
+}
+
+/*-----for border----*/
+.container{
+ font-family:Roboto,sans-serif; 
+    border-style: 1px solid grey;
+    margin: 0 auto;
+    text-align: center;
+  box-shadow: 2px 2px 2px 2px black;
+    width: auto;
+    height: 680px;
+    padding-top: 10px;
+    margin-top: 16px;
+}
+/*--- for label of first and last name---*/
+
+#lname{
+  margin-top:5px;
+}
+   
+
+/*---for heading-----*/
+.heading{
+  text-decoration:bold;
+  text-align : center;
+  font-size:30px;
+  color:black;
+  padding-top:10px;
+  border-bottom-style: solid;
+}
+/*-------for email----------*/
+ /*------label----*/
+#email{
+   margin-top: 5px;
+}
+/*-----------for Password--------*/
+    /*-------label-----*/
+/* .mail{
+  margin-left: 44px;
+    color: black;
+    font-size: 14px;
+    margin-top: 13px;
+} */
+.email-text{
+  font-size: 14px;
+  color:black;
+  margin-top: 5px;
+  padding-left: 32px;
+  display: flex;
+  justify-content: center;
+
+}
+.mail{
+  margin-top: 12px;
+  margin-right: 3px;
+}
+
+
+.pass-text{
+  font-size: 14px;
+  color:black;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+
+}
+.pass{
+  margin-top: 11px;
+  padding-right: 3px;
+}
+#password{
+margin-top: 6px;
+}
+/*------------for phone Number--------*/
+     /*----------label--------*/
+/* .pno{
+  font-size: 18px;
+    margin-left: -13px;
+    margin-top: 10px;
+    color: black;
+ 
+}	 */
+
+/*--------------for Gender---------------*/
+    /*--------------label---------*/
+.gender-text {
+  font-size: 14px;
+  color:black;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.gender{
+  margin-top: 7px;
+  padding-right: 3px;
+}
+
+    /*---------- for Input type--------*/
+.male{
+  color: black;
+    font-size: 13px;
+    margin-top: 11px;
+}
+.female {
+    color:black;
+    font-size: 13px;
+    margin-top: 11px;
+  padding-right: 95px;
+}	
+/*------------For submit button---------*/
+.sbutton{
+  color: black;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: #080808;
+    width: 32%;
+    margin-left: 41%;
+    margin-top: 16px;
+  box-shadow: 0px 2px 2px 0px white;
+      
+  }
+.btn.btn-warning:hover {
+   box-shadow: 2px 1px 2px 3px #99ccff;
+ background:#5900a6;
+ color:#fff;
+ transition: background-color 1.15s ease-in-out,border-color 1.15s ease-in-out,box-shadow 1.15s ease-in-out;
+ 
+}	 
+.first-text{
+  font-size: 14px;
+  color:black;
+  margin-top: 5px;
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+}
+.firstname{
+  padding-top: 9px;
+  padding-right: 3px;
+}
+.last-text{
+  font-size: 14px;
+  color:black;
+  margin-top:5px;
+  display: flex;
+  justify-content: center;
+}
+.lastname{
+  padding-top: 9px;
+  padding-right: 3px;
+}
+#fnameError{
+  margin-top: 4px;
+  background-color:crimson;
+  color:black;
+  border-radius: 12px;
+  font-size: small;
+  padding-left: 10px;
+}
+#lnameError{
+  margin-top: 4px;
+  background-color:crimson;
+  color:black;
+  border-radius: 12px;
+  font-size: small;
+  padding-left: 10px;
+}
+#emailError{
+  margin-top: 4px;
+  background-color:crimson;
+  color:black;
+  border-radius: 12px;
+  font-size: small;
+  padding-left: 10px;
+}
+#pwdError{
+  margin-top: 4px;
+  background-color:crimson;
+  color:black;
+  border-radius: 12px;
+  font-size: small;
+  padding-left: 10px;
+}
+#mError{
+  margin-top: 4px;
+  background-color:crimson;
+  color:black;
+  border-radius: 12px;
+  font-size: small;
+  padding-left: 10px;
+}
+.count-text{
+  font-size: 14px;
+  color:black;
+  margin-top:5px;
+  display: flex;
+  justify-content: center;
+}
+.countryname{
+  padding-top: 9px;
+  padding-right: 3px;
+
+}
+#countryError{
+  margin-top: 4px;
+  background-color:crimson;
+  color:black;
+  border-radius: 12px;
+  font-size: small;
+  padding-left: 10px;
+
+}.dn1-text{
+  font-size: 14px;
+  color:black;
+  margin-top:5px;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: black;
+  }
+}
